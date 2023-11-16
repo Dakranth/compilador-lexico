@@ -1,11 +1,24 @@
-programa teste
+programa teste_rust
 inicio
-   declare a1,b1,c2: inteiros.
-   a1 := 3.
-   b1 := 2.
-   c2 := a + b * 5.
-   escreva(a).
-   escreva(b).
-   escreva(c).
-   a@j2.
+    declare a, b: inteiros.
+    let c: inteiro.
+    
+    a := 3.
+    b := 2.
+    c := a + b * 5.
+
+    escreva(a).
+    escreva(b).
+    escreva(c).
+
+    fn minha_funcao(x: inteiro) -> inteiro
+    inicio
+        let y: inteiro.
+        y := x * 2.
+        retorno y.
+    fim
+
+    let resultado: inteiro.
+    resultado := minha_funcao(c).
+    escreva(resultado).
 fim

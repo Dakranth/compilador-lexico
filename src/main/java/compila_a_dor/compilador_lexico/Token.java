@@ -1,6 +1,6 @@
-package ufabc_bcc_compiladores.compilador_lexico;
+package compila_a_dor.compilador_lexico;
 
-import ufabc_bcc_compiladores.compilador_lexico.enums.ETipoToken;
+import compila_a_dor.compilador_lexico.enums.ETipoToken;
 
 public class Token {
 
