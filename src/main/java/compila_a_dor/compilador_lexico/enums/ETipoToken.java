@@ -8,8 +8,8 @@ public enum ETipoToken {
     PONTUACAO,
     INTEIRO,
     RESERVADO,
-    LIFETIME,       // Exemplo de um novo tipo para lifetimes
-    ATRIBUTO,       // Exemplo de um novo tipo para atributos
-    CHAR_LITERAL,   // Exemplo de um novo tipo para literais de caractere
+    LIFETIME,
+    ATRIBUTO,
+    CHAR_LITERAL,
     CONTINUA;
 }

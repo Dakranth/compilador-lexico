@@ -10,8 +10,8 @@ import compila_a_dor.compilador_lexico.enums.ETipoToken;
 public class AnalisadorLexico {
 
     public static final String[] PALAVRAS_RESERVADAS_RUST = {
-        "fn", "let", "mut", "if", "else", "while", "return",
-        "match", "enum", "struct", "impl", "use", "mod"
+            "fn", "let", "mut", "if", "else", "while", "return",
+            "match", "enum", "struct", "impl", "use", "mod"
     };
 
     private char[] conteudo;
