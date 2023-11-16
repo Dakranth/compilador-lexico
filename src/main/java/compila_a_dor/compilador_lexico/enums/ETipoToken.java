@@ -7,6 +7,9 @@ public enum ETipoToken {
     OPERADOR,
     PONTUACAO,
     INTEIRO,
-    RESERVADO,  // Alterado de RESERVED para RESERVADO
+    RESERVADO,
+    LIFETIME,       // Exemplo de um novo tipo para lifetimes
+    ATRIBUTO,       // Exemplo de um novo tipo para atributos
+    CHAR_LITERAL,   // Exemplo de um novo tipo para literais de caractere
     CONTINUA;
 }
