@@ -1,4 +1,4 @@
-package ufabc_bcc_compiladores.compilador_lexico;
+package compila_a_dor.compilador_lexico;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
